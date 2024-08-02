@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: burlywood;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font-family: sans-serif, 'Poppins';
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav-link {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+#decor {
+    text-decoration: none;
+}
+
+
+.spectacle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.content {
+    max-width: 60%;
+}
+
+.image-dog img {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    padding-left: 10px;
+    animation: fade 3s ease-in 50ms
+}
+
+@keyframes fade {
+     0% {
+        opacity: 0;
+      }
+     100% {
+        opacity: 100 ;
+     }
+    
+}
+
+
+
+.button-start, .button-demo {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-start:hover,
+.button-start:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-start:hover {
+  transform: translateY(-1px);
+}
+
+.button-start:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.button-demo:hover,
+.button-demo:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-demo:hover {
+  transform: translateY(-1px);
+}
+
+.button-demo:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(189,95,21,1) 7%, rgba(215,22,92,1) 43%, rgba(0,50,255,1) 91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: clip;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    padding: 50px 20px 40px;
+    font-size: 35px;
+}
+
+
+
+.sec-image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.h2-image-block {
+    height: 300px;
+}
+
+
+
+
+h3 {
+    font-size: 28px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.text-block p {
+    padding: 1%;
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.image-hegel {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socratesAristotleImage {
+    height: auto;
+}
+
+
+
+.brands {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.brands p {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   /* background: linear-gradient(to right, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0, 0, 255))*/
+}
+
+.logos img {
+    max-height: 150px;
+}
+
+.hide-bg {
+    mix-blend-mode: multiply;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    padding: 20px 0;
+}
+
+.social-media {
+    margin: 0 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* SECOND PAGE -HTML- STYLING */
+#second-page {
+    background-color: burlywood;
+}
+
+#second-h1 {
+    text-align: center;
+}
+
+.featuresPageMario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuresPageMarioParagraph {
+    display: flex;
+    justify-content: center;
+}
